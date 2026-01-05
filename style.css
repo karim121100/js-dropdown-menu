@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 40px;
+  background: #f4f5f7;
+}
+
+.menu {
+  position: relative;
+  display: inline-block;
+}
+
+button {
+  padding: 8px 12px;
+}
+
+#dropdown {
+  list-style: none;
+  padding: 0;
+  margin: 5px 0 0;
+  background: #fff;
+  border: 1px solid #ccc;
+  display: none;
+}
+
+#dropdown li {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+#dropdown li:hover {
+  background: #eee;
+}
